@@ -40,9 +40,12 @@
         <Base>true</Base>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base)'!=''">
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <DCC_UnitSearchPath>..\orm;..\sql;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+        <VerInfo_Locale>1046</VerInfo_Locale>
         <SanitizedProjectName>Project1</SanitizedProjectName>
         <DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;$(DCC_Namespace)</DCC_Namespace>
-        <Icon_MainIcon>$(BDS)\bin\delphi_PROJECTICON.ico</Icon_MainIcon>
         <DCC_DcuOutput>.\$(Platform)\$(Config)</DCC_DcuOutput>
         <DCC_ExeOutput>.\$(Platform)\$(Config)</DCC_ExeOutput>
         <DCC_E>false</DCC_E>
@@ -71,6 +74,8 @@
         <DCC_RemoteDebug>true</DCC_RemoteDebug>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <VerInfo_Locale>1033</VerInfo_Locale>
         <DCC_RemoteDebug>false</DCC_RemoteDebug>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2)'!=''">
@@ -86,6 +91,11 @@
         <DCCReference Include="Unit1.pas">
             <Form>Form1</Form>
             <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="DM.pas">
+            <Form>D</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
         </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
@@ -107,6 +117,10 @@
                 <Source>
                     <Source Name="MainSource">Project1.dpr</Source>
                 </Source>
+                <Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dcloffice2k210.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclofficexp210.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+                </Excluded_Packages>
             </Delphi.Personality>
             <Deployment>
                 <DeployFile LocalName="Win32\Debug\Project1.exe" Configuration="Debug" Class="ProjectOutput">

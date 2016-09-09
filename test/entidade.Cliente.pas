@@ -19,7 +19,7 @@ type
      [Column('NOME',60)]
      FNome : String;
 
-     [Foreign('CLIENTE')]
+     [Foreign('CLIENTE',[],jLeft,lLazy)]
      FEnderecos : TLazyLoad<TClienteEndereco>;
 
      function GetEnderecos : TObjectList<TClienteEndereco>;
