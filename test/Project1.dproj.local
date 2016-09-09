@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/07/22 14:35:52.000.621,=C:\Users\angelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/07/22 18:38:03.000.372,=C:\Users\angelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/07/22 19:43:24.000.477,=C:\Users\angelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/01 15:32:57.000.414,=C:\Users\angelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/01 18:19:19.000.097,=C:\Users\angelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/09/08 18:33:50.059,=C:\Users\angelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/09/08 18:34:38.440,E:\orm\test\Unit1.dfm=C:\Users\angelo\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2016/09/08 18:34:38.440,E:\orm\test\Unit1.pas=C:\Users\angelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/09/08 18:34:41.007,E:\orm\test\Project1.dproj=C:\Users\angelo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
